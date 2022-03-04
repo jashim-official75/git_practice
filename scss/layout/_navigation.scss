@@ -1,0 +1,40 @@
+@import "../utilities/box-shadow";
+
+#header_area
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:2% 5%;
+    
+  
+    .logo
+    {
+        a
+        {
+            font-size: 2em;
+            text-transform: uppercase;
+            font-weight: 700;
+            color: #222;
+            &:hover
+            {
+                color: #111;
+            }
+        }
+    }
+
+    ul
+    {
+        
+        li
+        {
+            display: inline-block;
+            a
+            {
+                display: block;
+                padding: 10px 25px;
+
+            }
+        }
+    }
+}

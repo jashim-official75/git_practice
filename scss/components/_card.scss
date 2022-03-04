@@ -12,5 +12,6 @@
         box-shadow: $shadow;
         text-align: center;
         padding: 25px;
+        @include center;
     }
 }

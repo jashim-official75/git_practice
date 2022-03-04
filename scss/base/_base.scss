@@ -5,7 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    transition: .3s ease;
+    @include transition(5s);
     text-decoration: none;
     list-style: none;
 }
@@ -13,6 +13,8 @@
 body
 {
     border: 0;
-    outline: 0;  
+    outline: 0; 
+    font-family: $font; 
+   
 }
 

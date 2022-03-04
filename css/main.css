@@ -14,6 +14,7 @@
 body {
   border: 0;
   outline: 0;
+  font-family: sans-serif;
 }
 
 .card .card_body {
@@ -25,5 +26,31 @@ body {
           box-shadow: 0 8px 40px rgba(0, 0, 0, 0.1);
   text-align: center;
   padding: 25px;
+}
+
+#header_area {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  padding: 2% 5%;
+  width: 100%;
+  height: 100vh;
+}
+
+#header_area .logo a {
+  font-size: 2em;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #222;
+}
+
+#header_area .logo a:hover {
+  color: #111;
 }
 /*# sourceMappingURL=main.css.map */
