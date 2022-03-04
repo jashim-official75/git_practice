@@ -1,8 +1,16 @@
 // IMPORT ABSTRACT
 
-@import "/scss/abstract/variable";
+@import "../scss/abstract/variable";
 
 // IMPORT BASE
 
 
-@import "/scss/base/base";
+@import "../scss/base/base";
+
+// IMPORT COMPONETNS
+
+@import "../scss/components/card";
+
+// IMPORT LAYOUT
+
+@import "../scss/layout/navigation";

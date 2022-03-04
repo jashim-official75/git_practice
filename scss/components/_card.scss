@@ -1,0 +1,16 @@
+.card
+{
+   
+
+    .card_body
+    {
+        background:$white;
+        $white:#ddd !global;
+        color: $white;
+        width: 250px;
+        height: auto;
+        box-shadow: $shadow;
+        text-align: center;
+        padding: 25px;
+    }
+}
